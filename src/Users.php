@@ -17,7 +17,7 @@ class Users implements DbObject{
     public function checkLogin($username,$md5pass){
     	$md5pass = md5($md5pass . '_PHPWATCHCN');
     	$user = $GLOBALS['PW_DB']->executeSelectOne('*', 'users', "WHERE username='{$username}' AND password='{$md5pass}'");
-    	if(false !== $user){
+        if(isset($user['uid']) && $user['uid']>0){
     		$_SESSION['ISLOGIN'] = true;
     		$_SESSION['user_data'] = $user;
     	}
