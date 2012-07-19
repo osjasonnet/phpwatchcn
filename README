@@ -40,6 +40,10 @@ CRONJOB SETUP :
 
         */5 * * * * php /path/to/phpwatch/root/directory/cron.php
 
+邮件客户端模式：
+    中国版 增加客户端模式，不用管理员设置服务器的邮件环境 利用smtp 就可以发送邮件给接收者
+    详见config.php 里关于client的配置
+
 ===============================
   Contact
 ===============================
