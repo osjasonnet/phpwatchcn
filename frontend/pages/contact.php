@@ -21,7 +21,7 @@
 ?>
 <div class="message">
     此通知信息将被保存. <br />
-    <a href="?page=contact&id=<?php p($contact->getId()); ?>">Return to "<?php p($contact->getName()); ?>"</a> | 
+    <a href="?page=contact&id=<?php p($contact->getId()); ?>">返回 "<?php p($contact->getName()); ?>"</a> | 
     <a href="?page=contacts">返回通知列表</a>
 </div>
 <?php

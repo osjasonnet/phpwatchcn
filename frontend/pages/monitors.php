@@ -59,7 +59,7 @@
             <?php
                 if(!GuiHelpers::isExpanded($monitor->getId())) :
             ?>
-                - <a href="?page=monitors&expand=<?php p($monitor->getId()); ?>">Expand</a>
+                - <a href="?page=monitors&expand=<?php p($monitor->getId()); ?>">展开</a>
             <?php
                 endif;
             ?>
