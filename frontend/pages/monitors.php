@@ -111,3 +111,6 @@
         endforeach;
     ?>
 </div>
+<script type="text/javascript">
+    setInterval(function(){window.location.href = window.location.href;},1000*60*3);    
+</script>
