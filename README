@@ -47,6 +47,10 @@ CRONJOB SETUP :
 邮件客户端模式：
     中国版 增加客户端模式，不用管理员设置服务器的邮件环境 利用smtp 就可以发送邮件给接收者
     详见config.php 里关于client的配置
+    
+已知bug
+    未完整的 汉化
+    如果联系方式 channel 在用，删除channel后 导致 monitor 报错
 
 ===============================
   Contact
