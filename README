@@ -39,6 +39,7 @@ CRONJOB SETUP :
     the file:
 
         */5 * * * * php /path/to/phpwatch/root/directory/cron.php
+<<<<<<< HEAD
 中国版用户认证：
     中国版 增加用户登陆机制，不登陆不允许管理监控查看详情；
     默认用户名：phpwatchcn
@@ -51,6 +52,8 @@ CRONJOB SETUP :
 已知bug
     未完整的 汉化
     如果联系方式 channel 在用，删除channel后 导致 monitor 报错
+=======
+>>>>>>> parent of c09d506... readme ok
 
 ===============================
   Contact
